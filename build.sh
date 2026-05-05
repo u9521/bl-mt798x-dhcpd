@@ -194,7 +194,7 @@ if [ "$VARIANT" = "default" ] || [ "$VARIANT" = "DEFAULT" ]; then
 		fi
 	fi
 elif [ "$VARIANT" = "ubootmod" ] || [ "$VARIANT" = "UBOOTMOD" ]; then
-	fixedparts=0
+#	fixedparts=0
 	ATF_CFG_PATH=$ATF_CFG_PATH_FIT
 	UBOOT_CFG_PATH=$UBOOT_CFG_PATH_FIT
 	if [ "$multilayout" = "1" ]; then
